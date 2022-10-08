@@ -48,5 +48,6 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
       1.1.2.2.1 Termination
 1.2 Generate Data Set
 1.3 Create Binary Search Tree
-1.4 Print Binary Search Tree
-1.5 Return K-Smallest Value
+1.4 User Outputs
+  1.4.1 Print Binary Search Tree (in-order traversal)
+  1.4.2 Print the K-th smallest value
