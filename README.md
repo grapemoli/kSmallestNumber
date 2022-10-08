@@ -20,34 +20,34 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
 
 ## Steps:
 1.1 User Inputs
-..1.1.1 The user will be asked if they would like the default data set.
-....1.1.1.1 'yes'
-......1.1.1.1 Move to 1.1.2
-    1.1.1.2 'no'
-      1.1.1.2.1 The user will be asked to input a dataset size.
-        1.1.1.2.1.1 The user inputs a valid integer.
-          1.1.1.2.1.1.1 Move to 1.1.1.2.1.2
-        1.1.1.2.1.2 The user inputs an unvalid integer.
-          1.1.1.2.1.2.1 Termination.
-      1.1.1.2.2 The user will be asked to input a seed.
-        1.1.1.2.2.1 The user inputs a valid integer.
-          1.1.1.2.2.1.1 Move to 1.1.1.2.3
-        1.1.1.2.2.2 The user inputs an unvalid integer.
-          1.1.1.2.2.2.1 Termination
-      1.1.1.2.3 The user will be asked to input an upper limit for the dataset values.
-        1.1.1.2.3.1 The user inputs an integer [1, size(dataSet)]
-          1.1.1.2.3.1.1 Move to 1.1.2
-        1.1.1.2.3.2 The user inputs an invalid input.
-          1.1.1.2.3.2.1 Termination.
-    1.1.1.3 User inputs an invalid input.
-      1.1.1.3.1 Termination
-  1.1.2 The user will be asked to input a k-value.
-    1.1.2.1 The user inputs a value within the given domain: [1, size(dataSet)].
-      1.1.2.1.1 Move to 1.2
-    1.1.2.2 The user inputs an invalid input.
-      1.1.2.2.1 Termination
-1.2 Generate Data Set
-1.3 Create Binary Search Tree
-1.4 User Outputs
-  1.4.1 Print Binary Search Tree (in-order traversal)
-  1.4.2 Print the K-th smallest value
+    1.1.1 The user will be asked if they would like the default data set. <br>
+        1.1.1.1 'yes'<br>
+            1.1.1.1 Move to 1.1.2<br>
+    1.1.1.2 'no'<br>
+      1.1.1.2.1 The user will be asked to input a dataset size.<br>
+        1.1.1.2.1.1 The user inputs a valid integer.<br>
+          1.1.1.2.1.1.1 Move to 1.1.1.2.1.2<br>
+        1.1.1.2.1.2 The user inputs an unvalid integer.<br>
+          1.1.1.2.1.2.1 Termination.<br>
+      1.1.1.2.2 The user will be asked to input a seed.<br>
+        1.1.1.2.2.1 The user inputs a valid integer.<br>
+          1.1.1.2.2.1.1 Move to 1.1.1.2.3<br>
+        1.1.1.2.2.2 The user inputs an unvalid integer.<br>
+          1.1.1.2.2.2.1 Termination<br>
+      1.1.1.2.3 The user will be asked to input an upper limit for the dataset values.<br>
+        1.1.1.2.3.1 The user inputs an integer [1, size(dataSet)]<br>
+          1.1.1.2.3.1.1 Move to 1.1.2<br>
+        1.1.1.2.3.2 The user inputs an invalid input.<br>
+          1.1.1.2.3.2.1 Termination.<br>
+    1.1.1.3 User inputs an invalid input.<br>
+      1.1.1.3.1 Termination<br>
+  1.1.2 The user will be asked to input a k-value.<br>
+    1.1.2.1 The user inputs a value within the given domain: [1, size(dataSet)].<br>
+      1.1.2.1.1 Move to 1.2<br>
+    1.1.2.2 The user inputs an invalid input.<br>
+      1.1.2.2.1 Termination<br>
+1.2 Generate Data Set<br>
+1.3 Create Binary Search Tree<br>
+1.4 User Outputs<br>
+  1.4.1 Print Binary Search Tree (in-order traversal)<br>
+  1.4.2 Print the K-th smallest value<br>
