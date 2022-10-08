@@ -20,9 +20,9 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
 
 ## Steps:
 1.1 User Inputs
-  1.1.1 The user will be asked if they would like the default data set.
-    1.1.1.1 'yes'
-      1.1.1.1 Move to 1.1.2
+..1.1.1 The user will be asked if they would like the default data set.
+....1.1.1.1 'yes'
+......1.1.1.1 Move to 1.1.2
     1.1.1.2 'no'
       1.1.1.2.1 The user will be asked to input a dataset size.
         1.1.1.2.1.1 The user inputs a valid integer.
