@@ -19,7 +19,7 @@ The user is printed the unsorted array. Then, the user is printed the binary tre
 Then, the user is printed the k-th smallest value. For example, if the user inputted the k-value to be 1, then the user is returned the smallest value. If the user inputs the k-value as 3, then the user is returned the 3-rd smallest value.
 
 ## Steps:
-1.1 User Inputs
+**1.1 User Inputs** <br>
     1.1.1 The user will be asked if they would like the default data set. <br>
         1.1.1.1 'yes'<br>
             1.1.1.1 Move to 1.1.2<br>
@@ -46,8 +46,8 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
       1.1.2.1.1 Move to 1.2<br>
     1.1.2.2 The user inputs an invalid input.<br>
       1.1.2.2.1 Termination<br>
-1.2 Generate Data Set<br>
-1.3 Create Binary Search Tree<br>
-1.4 User Outputs<br>
+**1.2 Generate Data Set**<br>
+**1.3 Create Binary Search Tree**<br>
+**1.4 User Outputs**<br>
   1.4.1 Print Binary Search Tree (in-order traversal)<br>
   1.4.2 Print the K-th smallest value<br>
