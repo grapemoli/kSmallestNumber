@@ -47,19 +47,19 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
     1.1.2.2 The user inputs an invalid input.<br>
       1.1.2.2.1 Termination<br>
 **1.2 Generate Data Set**<br>
-    1.2.1 Sort the dataset.
-    1.2.2 Get the median.
-        1.2.2.1 The dataset is even.
-            1.2.2.1.1 Make the floor of the median a node on the heap.
-            1.2.2.1.2 Move to 1.2.3
-        1.2.2.2 The dataset is odd.
-            1.2.2.2.1 Make the median a node on the heap.
-            1.2.2.2.2 Move to 1.2.3
-    1.2.3 Make the new node the root of a tree.
-    1.2.4 Recursively build the rest of the tree:
-        1.2.4.1 Pass a node pointer to a parent, and a vector of a dataset
-        1.2.4.2 Split the dataset into two halves.
-        1.2.4.3 Find the median of both datasets.
+    1.2.1 Sort the dataset.<br>
+    1.2.2 Get the median.<br>
+        1.2.2.1 The dataset is even.<br>
+            1.2.2.1.1 Make the floor of the median a node on the heap.<br>
+            1.2.2.1.2 Move to 1.2.3<br>
+        1.2.2.2 The dataset is odd.<br>
+            1.2.2.2.1 Make the median a node on the heap.<br>
+            1.2.2.2.2 Move to 1.2.3<br>
+    1.2.3 Make the new node the root of a tree.<br>
+    1.2.4 Recursively build the rest of the tree:<br>
+        1.2.4.1 Pass a node pointer to a parent, and a vector of a dataset<br>
+        1.2.4.2 Split the dataset into two halves.<br>
+        1.2.4.3 Find the median of both datasets.<br>
             1.2.4
 **1.3 Create Binary Search Tree**<br>
 **1.4 User Outputs**<br>
