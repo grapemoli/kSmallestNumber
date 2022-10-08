@@ -56,11 +56,18 @@ Then, the user is printed the k-th smallest value. For example, if the user inpu
             1.2.2.2.1 Make the median a node on the heap.<br>
             1.2.2.2.2 Move to 1.2.3<br>
     1.2.3 Make the new node the root of a tree.<br>
-    1.2.4 Recursively build the rest of the tree:<br>
-        1.2.4.1 Pass a node pointer to a parent, and a vector of a dataset<br>
-        1.2.4.2 Split the dataset into two halves.<br>
-        1.2.4.3 Find the median of both datasets.<br>
-            1.2.4
+    1.2.4 Recursively build the rest of the tree.<br>
+        1.2.4.1 Pass a pointer to a parent, and a vector of the dataset. <br>
+            1.2.4.1.1 The dataset size is greater than 3. <br>
+                1.2.4.1.1.1 Split the passed vector in half. <br>
+                    1.2.4.1.1.1.1 The vector is odd.<br>
+                        1.2.4.1.1.1.1.1 The two vectors are evenly split, excluding the median.<br>
+                        1.2.4.1.1.1.1.2 Continue to 1.2.4.1.1.2 <br>
+                    1.2.4.1.1.1.2 The vector is even.<br>
+                        1.2.4.1.1.1.2.1 The second of the two halves gets the 'extra' data, both excludes the identified median.<br>
+                        1.2.4.1.1.1.2.2 Continue to 1.2.4.1.1.2<br>
+            1.2.4.1.2 The dataset size is 2.<br>
+            1.2.3.1.3 The dataset size is 1.<br>
 **1.3 Create Binary Search Tree**<br>
 **1.4 User Outputs**<br>
   1.4.1 Print Binary Search Tree (in-order traversal)<br>
