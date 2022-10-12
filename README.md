@@ -1,7 +1,7 @@
 # K-th Smallest Number
 
 ## Purpose:
-This program will return the k-th smallest value in a dataset as quickyly as possible. To lower the speed as much as possible, I demonstrated understanding of Binary Search Trees and recursion.
+This program will return the k-th smallest value in a dataset as quickly as possible. To lower the speed as much as possible, I demonstrated understanding of Binary Search Trees and recursion.
 
 ## Inputs:
 For ease, please run this program using the makefile command 'make run.'
